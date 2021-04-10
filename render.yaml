@@ -14,3 +14,5 @@ services:
         fromDatabase:
           name: myrailssite
           property: connectionString
+      - key: SECRET_KEY_BASE
+        generateValue: true
